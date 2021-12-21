@@ -1,0 +1,155 @@
+/* 
+Auteur: Luuk Vesters
+Aanmaakdatum: 21-12-2021
+
+Onderwerp: Project portfolio Luuk Vesters 
+*/
+
+@font-face {
+    font-family: SegoeUI_sb;
+    src: url("/fonts/Segoe_UI_Semibold.ttf")
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src: url("/fonts/SegoeUI.ttf")
+}
+
+html
+{
+    min-height: 100%;
+}
+
+/* navigatie */
+header
+{
+    height: 100px;
+    display: flex;
+    padding:30px;
+    margin-right: 30px;;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+li
+{
+    display: inline-block;
+}
+
+a
+{
+    text-decoration: none;
+    display: inline-block;
+    font-family: SegoeUI_sb;
+    font-size: 32px;
+    color: white;
+    padding-right: 78px;
+}
+a:link, a:visited, a:hover, a:active
+{
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: 30px;
+}
+
+#active
+{
+    color: #E8810B;
+    padding-right: 78px;
+}
+
+#contact
+{
+    padding-left: 560px;
+}
+
+/* achtergrond */
+body
+{
+    background: black;
+    background-image: url("/images/Achtergrond.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/* text in het midde van de pagina */
+h1
+{
+    font-size: 61px;
+    color: white;
+    font-family: SegoeUI;
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    margin-left: 40px;
+}
+
+h2
+{
+    font-size: 61px;
+    color: white;
+    font-family: SegoeUI;
+    position: absolute;
+    top: 36%;
+    width: 90%;
+    margin-left: 40px;
+}
+
+p
+{
+    font-size: 37px;
+    color: white;
+    font-family: SegoeUI;
+    position: absolute;
+    top: 48%;
+    width: 60%;
+    margin-left: 40px;
+}
+
+#aboutmelink
+{
+    font-size: 35px;
+    color: #E8810B;
+    font-family: SegoeUI;
+    position: absolute;
+    top: 72%;
+    width: 90%;
+    margin-left: 40px;
+}
+
+footer
+{
+    text-shadow: black 1.2px 1.2px 1.2px;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    top: 96%;
+    color: rgb(185, 185, 185);
+    font-family: SegoeUI;
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    position:absolute;
+    bottom:0;
+    width:99%;
+}
+
+
+#footertext1
+{
+   margin-right: 400px;
+   text-align: center;
+}
+
+#footertext2
+{
+    margin-right: 400px;
+}
+
