@@ -71,12 +71,11 @@ a:hover
 
 #contact
 {
-    padding-left: 520px;
+    padding-left: 49px;
 }
 
 label 
 {
-    margin: 50px 40px 0 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -135,7 +134,7 @@ p
 {
     font-size: 35px;
     color: #E8810B;
-    font-family: SegoeUI;
+    font-family: SegoeUI_sb;
     position: absolute;
     top: 72%;
     width: 90%;
@@ -188,10 +187,11 @@ footer
 
 
 @media only screen and (max-width: 500px) {
-    label {
+    label 
+    {     
         display: block;
         cursor: pointer;
-        float: right;
+        margin-left: 20px
     }
     .menu {
         text-align: center;
@@ -200,13 +200,80 @@ footer
     }
     .menu a {
         display: block;
-        border-bottom: 1px solid #EAEAEB;
+        border-bottom: 1px solid #ffffff;
         margin: 0;
      
     }
     #toggle:checked + .menu {
         display: block;
     }
+
+    body
+    {
+        background-repeat: no-repeat;
+        background-image: url("/images/achtergrond-phone.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-size: cover;
+    }
+
+    p
+    {
+        font-size: 18px;
+        width: 90%;
+        margin-left: 0px;
+        top: 36.5%;
+    }
+    h1
+    {
+        font-size: 29px;
+        margin-left: 0px;
+        top: 18%;
+    }
+
+    h2
+    {
+        font-size: 29px;
+        margin-left: 0px;
+        top: 22%;
+    }
+
+    #aboutmelink
+    {
+        font-size: 18px;
+        color: #E8810B;
+        font-family: SegoeUI_sb;
+        top: 60%;
+        width: 90%;
+        margin-left: 0px;
+    }
+    #contact
+    {
+        padding-left: 0px;
+    }
+    footer
+    {
+        text-shadow: black 1.2px 1.2px 1.2px;
+        background-color: rgb(255, 255, 255, 0.2);
+        backdrop-filter: blur(20px);
+        color: rgb(185, 185, 185);
+        font-family: SegoeUI;
+        text-align: center;
+        font-size: 16px;
+        top: 96%;
+
+        width:99%;
+    }
+
+    #footertext1
+    {
+       margin-right: 8px;
+       text-align: center;
+    }
     
+    #footertext2
+    {
+        margin-right: 8px;
+    }
     
 }
