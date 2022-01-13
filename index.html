@@ -9,10 +9,12 @@ Onderwerp: Project home pagina portfolio Luuk Vesters
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial -scale=1.0">
+        <!-- link naar bootstrap die er voor zorgt dat de icoontjes werken die in de footer staan. -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- link naar externe css -->
         <link rel="stylesheet" href="styles/stylesheet.css">
+        <!-- link naar externe javascript -->
         <script src="scripts/script.js" defer></script>
         <title>
             Luuk Vesters | Home
@@ -20,30 +22,29 @@ Onderwerp: Project home pagina portfolio Luuk Vesters
     </head>
     <body id="homebody">
         <header>
-            <nav class="navbar">
-                <div class="nav">
-                    <label id="menu"for="toggle" onclick="myFunction()">&#9776; Menu</label>
-                    <input type="checkbox" id="toggle"/>
-                    <div class="menu">
+                    <!-- navigatie. Werkend op pc en telefoon; zowel portrait als landscape. -->
+                <nav>
+                    <ul>
                         <a href="#" class="menu" id="active">Home</a>
                         <a href="#" class="menu">Portfolio</a>
                         <a href="#" class="menu">Ervaringen</a>
                         <a href="#" class="menu">Resultaten</a>
                         <a href="#" class="menu">Over mij</a>
                         <a href="#" class="menu" id="contact">Contact</a>
-                    </div>
-                </div>
-            </nav>
+                    </ul>
+                </nav>
+            <!-- Korte tekst/inleiding en een link naar over mij. -->
             <h1 class="WelcomeText">Hallo, ik ben Luuk Vesters</h1>
             <h2 class="WelcomeText2">Software development student</h2>
             <p>Ik volg sinds dit jaar de software development opleiding op<br>
                 het Koning Willem 1 college in Den Bosch ik heb hiervoor <br>
-                gekozen omdat ik altijd al een beetje met computer bezig was<br>
+                gekozen omdat ik altijd al een beetje met computers bezig was<br>
                 en er altijd al interesse in had. Ik hoop hier nog veel te leren.</p>
                 <a href="#" id="aboutmelink">Over mij</a>
             </header>
+            <!-- Footer met link van de website, mijn naam en mijn email adres. Allemaal met icoontjes. -->
 <footer id="footer">
-        <span id="footertext1">Luukvesters.nl</span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
+    <span class="glyphicon glyphicon-user"></span> <span id="footertext1">Luukvesters.nl</span> <span class="glyphicon glyphicon-education"></span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
 </footer>
     </body>
 </html>
