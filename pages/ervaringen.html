@@ -9,16 +9,45 @@ Onderwerp: Project Ervaringen pagina portfolio Luuk Vesters
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial -scale=1.0">
+        <!-- link naar bootstrap die er voor zorgt dat de icoontjes werken die in de footer staan. -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- link naar externe css -->
+        <link rel="stylesheet" href="../styles/stylesheet2.css">
+        <!-- link naar externe javascript -->
         <script src="scripts/script.js" defer></script>
         <title>
             Luuk Vesters | Ervaringen
         </title>
     </head>
-    <body>
+    <body id="homebody">
         <header>
-            <nav></nav>
-        </header>
+                    <!-- navigatie. Werkend op pc en telefoon; zowel portrait als landscape. -->
+                <nav>
+                        <a href="../index.html" class="menu" >Home</a>
+                        <a href="/pages/portfolio.html" class="menu" >Portfolio</a>
+                        <a href="/pages/ervaringen.html" class="menu" id="active">Ervaringen</a>
+                        <a href="/pages/resultaten.html" class="menu">Resultaten</a>
+                        <a href="/pages/overmij.html" class="menu">Over mij</a>
+                        <a href="/pages/contact.html" class="menu" id="contact">Contact</a>
+                </nav>
+            </header>
+            
+            <h1>Ervaringen</h1>
+            <p id="infotext">Op deze pagina laat ik de scholen zien waar ik op heb gezeten en mijn ervaring op deze scholen.</p>
+            <br>
+            <h2 class="scholen">Basisschool</h2>
+            <h3 id="basisschool">Pater van der Geld basisschool</h3>
+            <figure><img src="../images/basisschool.jpg" alt="Basisschool" class="schoolpicture"></figure>
+            <figcaption><p class="textscholen">Mijn ervaring op de basisschool is over het algemeen best goed. Ik heb mijzelf hier goed kunnen ontwikkelen en de docenten waren altijd aardig en voor de rest heb ik niks op te merken of te delen over mijn tijd hier.<br><span class="SubkopSchool">Adres</span><br><span id="AdresBasisschool">Kindcentrum Zanddonk<br>Mendelssohnstraat 59<br>5144 GE Waalwijk</span> </p></figcaption>
+            <h2 class="scholen">Middelbare school</h2>
+            <h3 id="basisschool">Willem van Oranje college</h3>
+            <figure><img src="../images/middelbareschool.jpg" alt="Middelbareschool" class="schoolpicture"></figure>
+            <figcaption><p class="textscholen">Ik heb vmbo-t gedaan en het hier naar mijn zin gehad en al een beetje gaan zoeken naar wat ik wilde gaan doen. <br><a target="_blank" id="zieCode" href="https://github.com/LuukVesters/3.2-Realiseren">Bekijk de code</a></p></figcaption>
+            <!-- Footer met link van de website, mijn naam en mijn email adres. Allemaal met icoontjes. -->
+            <footer>
+                <span class="glyphicon glyphicon-education"></span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
+           </footer>
     </body>
 </html>
+
