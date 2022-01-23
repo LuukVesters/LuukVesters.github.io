@@ -9,13 +9,14 @@
         <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial -scale=1.0">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <!-- link naar bootstrap die er voor zorgt dat de icoontjes werken die in de footer staan. -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
             <!-- link naar externe css -->
             <link rel="stylesheet" href="../styles/stylesheet2.css">
+            <link rel="stylesheet" href="../styles/stylesheet3.css">
             <!-- link naar externe javascript -->
-            <script src="scripts/script.js" defer></script>
+            <script src="../scripts/script.js" defer></script>
             <title>
                 Luuk Vesters | Resultaten
             </title>
@@ -33,7 +34,24 @@
                     </nav>
                 </header>
                 <h1>Resultaten</h1>
-                <!-- Footer met link van de website, mijn naam en mijn email adres. Allemaal met icoontjes. -->
+                <p id="Uitleg">Dit zijn mijn resultaten van Periode 1.</p>
+                <br><br>
+                    <table id="table">
+
+                            <td class="RowTitle">
+                                Vakken
+                            </td>
+                            <td class="RowTitle" id="ResultsTitle" colspan="3">
+                                Cijfers
+                            </td>
+                            <td class="RowTitle">
+                                Gemiddelde
+                            </td>
+                        </thead>
+                        <tbody id="tableBody">
+                        </tbody>
+                    </table>
+                <!-- Footer met mijn naam en mijn email adres. Allemaal met icoontjes. -->
                 <footer>
                     <span class="glyphicon glyphicon-education"></span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
                </footer>
