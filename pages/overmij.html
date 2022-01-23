@@ -6,19 +6,38 @@ Aanmaakdatum: 21-12-2021
 Onderwerp: Project Over mij pagina portfolio Luuk Vesters
 -->
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/stylesheet.css">
-        <script src="scripts/script.js" defer></script>
-        <title>
-            Luuk Vesters | Over mij
-        </title>
-    </head>
-    <body>
-        <header>
-            <nav></nav>
-        </header>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- link naar bootstrap die er voor zorgt dat de icoontjes werken die in de footer staan. -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <!-- link naar externe css -->
+            <link rel="stylesheet" href="../styles/stylesheet2.css">
+            <!-- link naar externe javascript -->
+            <script src="../scripts/script2.js" defer></script>
+            <title>
+                Luuk Vesters | Over mij
+            </title>
+        </head>
+        <body id="homebody">
+            <header>
+                        <!-- navigatie. Werkend op pc en telefoon; zowel portrait als landscape. -->
+                    <nav>
+                            <a href="../index.html" class="menu" >Home</a>
+                            <a href="/pages/portfolio.html" class="menu" >Portfolio</a>
+                            <a href="/pages/ervaringen.html" class="menu">Ervaringen</a>
+                            <a href="/pages/resultaten.html" class="menu" >Resultaten</a>
+                            <a href="/pages/overmij.html" class="menu" id="active">Over mij</a>
+                            <a href="/pages/contact.html" class="menu" id="contact">Contact</a>
+                    </nav>
+                </header>
+            <h1>Over mij</h1>
+            <h2></h2>
+            <!-- Footer met mijn naam en mijn email adres. Allemaal met icoontjes. -->
+            <footer>
+                <span class="glyphicon glyphicon-education"></span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
+        </footer>
     </body>
 </html>
+
