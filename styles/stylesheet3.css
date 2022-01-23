@@ -1,0 +1,82 @@
+/* 
+Auteur: Luuk Vesters
+Aanmaakdatum: 21-12-2021
+
+Onderwerp: Project portfolio Luuk Vesters 
+*/
+
+td, th
+{
+    font-size: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    position: relative;
+    width: 100%;
+}
+
+tr:nth-child(even)
+{
+    background-color: #ececec;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #cfcfcf;
+}
+
+tr:hover 
+{
+    background-color:#5757574d;
+}
+
+td
+{
+    text-align: center;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.RowTitle
+{
+    font-weight: 600;
+    text-align: left;
+}
+
+#Uitleg
+{
+    font-size: 27px
+}
+
+#ResultsTitle
+{
+    text-align:centerl
+}
+footer
+{
+    text-shadow: black 1.2px 1.2px 1.2px;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    color: rgb(185, 185, 185);
+    font-family: SegoeUI;
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    bottom:0;
+    position: fixed;
+    width:100%;
+}
+
+#footertext1
+{
+   margin-right: 400px;
+   text-align: center;
+}
+
+#footertext2
+{
+    margin-right: 400px;
+}
