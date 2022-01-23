@@ -6,19 +6,47 @@ Aanmaakdatum: 21-12-2021
 Onderwerp: Project Contact pagina portfolio Luuk Vesters
 -->
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="styles/stylesheet.css">
-        <script src="scripts/script.js" defer></script>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- link naar bootstrap die er voor zorgt dat de icoontjes werken die in de footer staan. -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <!-- link naar externe css -->
+            <link rel="stylesheet" href="../styles/stylesheet2.css">
+            <link rel="stylesheet" href="../styles/stylesheet4.css">
+            <!-- link naar externe javascript -->
+            <script src="../scripts/script2.js" defer></script>
         <title>
             Luuk Vesters | Contact
         </title>
     </head>
     <body>
         <header>
-            <nav></nav>
+            <a href="../index.html" class="menu" >Home</a>
+            <a href="/pages/portfolio.html" class="menu" >Portfolio</a>
+            <a href="/pages/ervaringen.html" class="menu">Ervaringen</a>
+            <a href="/pages/resultaten.html" class="menu">Resultaten</a>
+            <a href="/pages/overmij.html" class="menu">Over mij</a>
+            <a href="/pages/contact.html" class="menu" id="active">Contact</a>
         </header>
+        <h1>Contact</h1>
+        <p>Vragen of opmerkingen? Neem contact met me op</p>
+        <br>
+        <p>Telefoon: 0624988928</p>
+        <p>Email: luukvesters@gmail.com</p>
+        <br>
+        <p id="adres">Adres:</p>
+        <p>St. Antoniusstraat 62</p>
+        <p>5144 AE Waalwijk</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2473.792483687412!2d5.065732116027865!3d51.6819414057468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c693ddd128f289%3A0x50eca74b58317b54!2sSint%20Antoniusstraat%2062%2C%205144%20AE%20Waalwijk!5e0!3m2!1snl!2snl!4v1642950481174!5m2!1snl!2snl" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br><br>
+        <a href="https://wa.me/0624988928" target="_blank"><img id="whatsapp" alt="whatsapp" src="../images/whatsapp-logo.png"></a>
+        <a href="https://discordapp.com/users/385471983586115584" target="_blank"><img id="discord" alt="discord" src="../images/discord-logo.png"></a>
+        <a href="mailto:luukvesters@gmail.com"><img id="gmail" alt="gmail" src="../images/gmail-logo.png"></a>
+        <footer id="footer">
+            <span class="glyphicon glyphicon-education"></span> <span id="footertext2">Luuk Vesters </span> <i class="glyphicon glyphicon-envelope"></i>  <span id="footertext3">luukvesters@gmail.com</span>
+       </footer>
     </body>
 </html>
+
